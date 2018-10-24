@@ -31,6 +31,7 @@ export default class PureChart extends React.Component {
 PureChart.propTypes = {
   type: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
+  suffix: PropTypes.string,
   color: PropTypes.string,
   height: PropTypes.number,
   numberOfYAxisGuideLine: PropTypes.number,
